@@ -13,3 +13,6 @@
   <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
 </ItemGroup>
 ```
+
+* dotnet ef migrations add InitialCreate
+* dotnet ef database update
