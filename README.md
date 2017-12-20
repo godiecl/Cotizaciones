@@ -97,3 +97,9 @@ namespace Cotizaciones.Data {
 dotnet ef migrations add InitialCreate --verbose
 dotnet ef database update --verbose
 ```
+
+## Creacion del Controller de Personas
+
+```bash
+dotnet aspnet-codegenerator controller --controllerName PersonaController --model Persona --dataContext CotizacionesContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+```
