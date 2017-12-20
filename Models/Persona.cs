@@ -12,7 +12,7 @@ namespace Cotizaciones.Models {
     /// </remarks>
     public class Persona
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         public string Rut { get; set; }
 
@@ -20,7 +20,7 @@ namespace Cotizaciones.Models {
 
         public string Paterno { get; set; }
 
-        public string Materno { get; set; }    
+        public string Materno { get; set; }
 
     }
 }
